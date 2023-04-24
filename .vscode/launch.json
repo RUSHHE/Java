@@ -1,0 +1,36 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "TriangleDemo",
+            "request": "launch",
+            "mainClass": "TriangleDemo",
+            "projectName": "Java_6941ed29"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "console": "externalTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Java_6941ed29"
+        },
+        {
+            "type": "java",
+            "name": "Launch Puppy",
+            "request": "launch",
+            "mainClass": "Puppy",
+            "projectName": "Java_6941ed29"
+        }
+    ]
+}
