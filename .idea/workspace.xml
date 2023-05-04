@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb5c21ee-0d53-4cb2-8414-6a686e3ec822" name="更改" comment="Finish NumOfLetter">
-      <change afterPath="$PROJECT_DIR$/Homework/7/StaticTheLetter/StaticTheLetter.iml" afterDir="false" />
+    <list default="true" id="eb5c21ee-0d53-4cb2-8414-6a686e3ec822" name="更改" comment="Finish CountLetterNWords">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -24,6 +23,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -48,7 +48,11 @@
       <updated>1682303684876</updated>
       <workItem from="1682303689576" duration="673000" />
       <workItem from="1682598649497" duration="3447000" />
-      <workItem from="1682659801586" duration="2544000" />
+      <workItem from="1682659801586" duration="4872000" />
+      <workItem from="1683111894395" duration="2818000" />
+      <workItem from="1683175377674" duration="254000" />
+      <workItem from="1683190187023" duration="1888000" />
+      <workItem from="1683195695566" duration="8512000" />
     </task>
     <task id="LOCAL-00001" summary="Finish NumOfLetter">
       <created>1682660406198</created>
@@ -57,15 +61,58 @@
       <option name="project" value="LOCAL" />
       <updated>1682660406198</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finish StaticTheLetter">
+      <created>1682662394162</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682662394162</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Finish PlateGen">
+      <created>1683199798583</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683199798583</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Finish ReverseNPalindrome">
+      <created>1683201440281</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683201440281</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Finish CountLetterNWords">
+      <created>1683203242604</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683203242604</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finish NumOfLetter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish NumOfLetter" />
+    <MESSAGE value="Finish StaticTheLetter" />
+    <MESSAGE value="Finish PlateGen" />
+    <MESSAGE value="Finish ReverseNPalindrome" />
+    <MESSAGE value="Finish CountLetterNWords" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish CountLetterNWords" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

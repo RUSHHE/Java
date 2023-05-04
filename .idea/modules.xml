@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/Homework/3/AutoBus/AutoBus.iml" filepath="$PROJECT_DIR$/Homework/3/AutoBus/AutoBus.iml" />
       <module fileurl="file://$PROJECT_DIR$/Homework/2/Calculator/Calculator.iml" filepath="$PROJECT_DIR$/Homework/2/Calculator/Calculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/Experiment/2/Chick N Rabbit/Chick N Rabbit.iml" filepath="$PROJECT_DIR$/Experiment/2/Chick N Rabbit/Chick N Rabbit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Experiment/9/CountLetterNWords/CountLetterNWords.iml" filepath="$PROJECT_DIR$/Experiment/9/CountLetterNWords/CountLetterNWords.iml" />
       <module fileurl="file://$PROJECT_DIR$/Experiment/8/CustomException/CustomException.iml" filepath="$PROJECT_DIR$/Experiment/8/CustomException/CustomException.iml" />
       <module fileurl="file://$PROJECT_DIR$/Homework/5/Cylinder/Cylinder.iml" filepath="$PROJECT_DIR$/Homework/5/Cylinder/Cylinder.iml" />
       <module fileurl="file://$PROJECT_DIR$/Experiment/2/DeleteRepeatedNum/DeleteRepeatedNum.iml" filepath="$PROJECT_DIR$/Experiment/2/DeleteRepeatedNum/DeleteRepeatedNum.iml" />
@@ -20,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/Experiment/7/InterfaceExt/InterfaceExt.iml" filepath="$PROJECT_DIR$/Experiment/7/InterfaceExt/InterfaceExt.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/Experiment/2/Judge/Judge.iml" filepath="$PROJECT_DIR$/Experiment/2/Judge/Judge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Experiment/9/LambdaException/LambdaException.iml" filepath="$PROJECT_DIR$/Experiment/9/LambdaException/LambdaException.iml" />
       <module fileurl="file://$PROJECT_DIR$/Homework/6/MismatchException/MismatchException.iml" filepath="$PROJECT_DIR$/Homework/6/MismatchException/MismatchException.iml" />
       <module fileurl="file://$PROJECT_DIR$/Experiment/6/Monkey/Monkey.iml" filepath="$PROJECT_DIR$/Experiment/6/Monkey/Monkey.iml" />
       <module fileurl="file://$PROJECT_DIR$/Experiment/8/MultiException/MultiException.iml" filepath="$PROJECT_DIR$/Experiment/8/MultiException/MultiException.iml" />
@@ -34,9 +36,11 @@
       <module fileurl="file://$PROJECT_DIR$/Experiment/2/PI/PI.iml" filepath="$PROJECT_DIR$/Experiment/2/PI/PI.iml" />
       <module fileurl="file://$PROJECT_DIR$/Experiment/6/People2String/People2String.iml" filepath="$PROJECT_DIR$/Experiment/6/People2String/People2String.iml" />
       <module fileurl="file://$PROJECT_DIR$/Homework/3/PeopleStudentUniverStudent/PeopleStudentUniverStudent.iml" filepath="$PROJECT_DIR$/Homework/3/PeopleStudentUniverStudent/PeopleStudentUniverStudent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Experiment/9/PlateGen/PlateGen.iml" filepath="$PROJECT_DIR$/Experiment/9/PlateGen/PlateGen.iml" />
       <module fileurl="file://$PROJECT_DIR$/Experiment/3/Point/Point.iml" filepath="$PROJECT_DIR$/Experiment/3/Point/Point.iml" />
       <module fileurl="file://$PROJECT_DIR$/Experiment/3/Printer/Printer.iml" filepath="$PROJECT_DIR$/Experiment/3/Printer/Printer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Homework/2/Product/Product.iml" filepath="$PROJECT_DIR$/Homework/2/Product/Product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Experiment/9/ReverseNPalindrome/ReverseNPalindrome.iml" filepath="$PROJECT_DIR$/Experiment/9/ReverseNPalindrome/ReverseNPalindrome.iml" />
       <module fileurl="file://$PROJECT_DIR$/Experiment/3/Scanner/Scanner.iml" filepath="$PROJECT_DIR$/Experiment/3/Scanner/Scanner.iml" />
       <module fileurl="file://$PROJECT_DIR$/Experiment/5/Shape/Shape.iml" filepath="$PROJECT_DIR$/Experiment/5/Shape/Shape.iml" />
       <module fileurl="file://$PROJECT_DIR$/Experiment/6/ShapePolymorphism/ShapePolymorphism.iml" filepath="$PROJECT_DIR$/Experiment/6/ShapePolymorphism/ShapePolymorphism.iml" />
