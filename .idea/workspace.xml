@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb5c21ee-0d53-4cb2-8414-6a686e3ec822" name="更改" comment="Finish CountLetterNWords">
+    <list default="true" id="eb5c21ee-0d53-4cb2-8414-6a686e3ec822" name="更改" comment="Finish BoxTest">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -38,6 +38,30 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="ArraylistTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraylistTest" />
+      <module name="ArrayListTest" />
+      <option name="PROGRAM_PARAMETERS" value="aa bb cc dd" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoxTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BoxTest" />
+      <module name="BoxTest" />
+      <option name="PROGRAM_PARAMETERS" value="123 tom" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.BoxTest" />
+        <item itemvalue="应用程序.ArraylistTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -53,6 +77,11 @@
       <workItem from="1683175377674" duration="254000" />
       <workItem from="1683190187023" duration="1888000" />
       <workItem from="1683195695566" duration="8512000" />
+      <workItem from="1683265221826" duration="4023000" />
+      <workItem from="1683274160730" duration="50000" />
+      <workItem from="1683284887484" duration="1582000" />
+      <workItem from="1683439866088" duration="9415000" />
+      <workItem from="1683510885044" duration="3998000" />
     </task>
     <task id="LOCAL-00001" summary="Finish NumOfLetter">
       <created>1682660406198</created>
@@ -89,7 +118,42 @@
       <option name="project" value="LOCAL" />
       <updated>1683203242604</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finish LinkedHashSetInput">
+      <created>1683266973225</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683266973225</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Finish HashSetInput">
+      <created>1683446188016</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683446188016</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Finish ArraylistTest">
+      <created>1683447174198</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683447174198</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Finish ArraylistTest">
+      <created>1683447206152</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683447206152</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Finish BoxTest">
+      <created>1683449062363</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1683449062363</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,7 +176,11 @@
     <MESSAGE value="Finish PlateGen" />
     <MESSAGE value="Finish ReverseNPalindrome" />
     <MESSAGE value="Finish CountLetterNWords" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish CountLetterNWords" />
+    <MESSAGE value="Finish LinkedHashSetInput" />
+    <MESSAGE value="Finish HashSetInput" />
+    <MESSAGE value="Finish ArraylistTest" />
+    <MESSAGE value="Finish BoxTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish BoxTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
