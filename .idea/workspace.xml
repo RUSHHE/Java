@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb5c21ee-0d53-4cb2-8414-6a686e3ec822" name="更改" comment="Finish BoxTest">
+    <list default="true" id="eb5c21ee-0d53-4cb2-8414-6a686e3ec822" name="更改" comment="Finish ComparatorTest">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -23,6 +23,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -38,6 +39,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\24333\OneDrive\Software Engineering\Java\Homework\8" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="ArraylistTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraylistTest" />
@@ -81,7 +87,9 @@
       <workItem from="1683274160730" duration="50000" />
       <workItem from="1683284887484" duration="1582000" />
       <workItem from="1683439866088" duration="9415000" />
-      <workItem from="1683510885044" duration="3998000" />
+      <workItem from="1683510885044" duration="4121000" />
+      <workItem from="1683543188783" duration="104000" />
+      <workItem from="1683543370001" duration="3601000" />
     </task>
     <task id="LOCAL-00001" summary="Finish NumOfLetter">
       <created>1682660406198</created>
@@ -153,7 +161,28 @@
       <option name="project" value="LOCAL" />
       <updated>1683449062363</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Finish InterfaceT">
+      <created>1683516276176</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1683516276176</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Finish Experiment10">
+      <created>1683516347842</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1683516347842</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Finish ComparatorTest">
+      <created>1683546368320</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1683546368320</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +209,10 @@
     <MESSAGE value="Finish HashSetInput" />
     <MESSAGE value="Finish ArraylistTest" />
     <MESSAGE value="Finish BoxTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish BoxTest" />
+    <MESSAGE value="Finish InterfaceT" />
+    <MESSAGE value="Finish Experiment10" />
+    <MESSAGE value="Finish ComparatorTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish ComparatorTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -189,6 +221,11 @@
           <url>file://$PROJECT_DIR$/Homework/7/StaticTheLetter/src/Work6.java</url>
           <line>6</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Homework/8/ComparableTest/src/TestSort1.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
