@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb5c21ee-0d53-4cb2-8414-6a686e3ec822" name="更改" comment="Finish ComparatorTest">
+    <list default="true" id="eb5c21ee-0d53-4cb2-8414-6a686e3ec822" name="更改" comment="Finish TextFileReader">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -13,38 +14,61 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="c304eee7-3143-4f06-aa15-990f9656b192" />
+        <option name="url" value="https://github.com/RUSHHE/Java.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectId" id="2Or12dEGoWBxRLqjlzQ33StcJg0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\24333\OneDrive\Software Engineering\Java\Homework\8" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="应用程序.FileReadAndWrite">
     <configuration name="ArraylistTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraylistTest" />
       <module name="ArrayListTest" />
@@ -61,8 +85,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FileReadAndWrite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileReadAndWrite" />
+      <module name="TextFileReader" />
+      <option name="PROGRAM_PARAMETERS" value="11 22 33 44 55" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainClass" />
+      <module name="BinaryRead" />
+      <option name="PROGRAM_PARAMETERS" value="-1 -2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.FileReadAndWrite" />
+        <item itemvalue="应用程序.MainClass" />
         <item itemvalue="应用程序.BoxTest" />
         <item itemvalue="应用程序.ArraylistTest" />
       </list>
@@ -90,6 +132,12 @@
       <workItem from="1683510885044" duration="4121000" />
       <workItem from="1683543188783" duration="104000" />
       <workItem from="1683543370001" duration="3601000" />
+      <workItem from="1683869377541" duration="4371000" />
+      <workItem from="1684039315893" duration="823000" />
+      <workItem from="1684073332547" duration="4179000" />
+      <workItem from="1684239597375" duration="297000" />
+      <workItem from="1684242115560" duration="1186000" />
+      <workItem from="1684243951526" duration="2253000" />
     </task>
     <task id="LOCAL-00001" summary="Finish NumOfLetter">
       <created>1682660406198</created>
@@ -182,7 +230,42 @@
       <option name="project" value="LOCAL" />
       <updated>1683546368320</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Finish Input2oplog">
+      <created>1684074504767</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1684074504767</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Finish Input2oplog">
+      <created>1684242171405</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1684242171405</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Finish BinaryRead">
+      <created>1684244058230</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1684244058230</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Finish BinaryRead">
+      <created>1684244093007</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1684244093007</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Finish TextFileReader">
+      <created>1684246179031</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1684246179031</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +295,10 @@
     <MESSAGE value="Finish InterfaceT" />
     <MESSAGE value="Finish Experiment10" />
     <MESSAGE value="Finish ComparatorTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish ComparatorTest" />
+    <MESSAGE value="Finish BinaryRead" />
+    <MESSAGE value="Finish Input2oplog" />
+    <MESSAGE value="Finish TextFileReader" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish TextFileReader" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
