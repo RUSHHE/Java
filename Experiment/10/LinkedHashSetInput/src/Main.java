@@ -18,7 +18,7 @@ class Calculate {
     public void input() {
         Scanner scan = new Scanner(System.in);
 
-        string.addAll(Arrays.asList(spilt(scan.nextLine())));//分割所输入的字符串，储存金LinkedHashSet
+        string.addAll(Arrays.asList(spilt(scan.nextLine())));//分割所输入的字符串，储存进LinkedHashSet
     }
 
     public String[] spilt(String string) {
