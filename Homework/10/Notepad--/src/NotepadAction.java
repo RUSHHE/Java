@@ -1,32 +1,30 @@
-// NotepadAction.java
-// 导入需要的包和类
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import java.io.*;
 
 // 定义NotepadAction类，用来实现操作功能
 class NotepadAction {
-
+    // 定义一个窗口对象，用来操作窗口
+    private final JFrame frame;
     // 定义一个文本区域对象，用来显示文本内容
-    private JTextArea area;
+    private final JTextArea area;
+    //定义一个String类，用来储存文件地址
     private String filePaths;
 
-    // 定义一个构造方法，用来接收文本区域对象作为参数
-    public NotepadAction(JTextArea area) {
+    // 定义一个构造方法，传入窗口和文本区域
+    public NotepadAction(JFrame frame, JTextArea area) {
+        this.frame = frame;
         this.area = area;
     }
 
     // 定义一个方法，用来实现新建功能
     public void create() {
-        // 创建一个新的Notepad对象
         Notepad notepad = new Notepad();
-        // 调用它的createAndShowGUI()方法，显示一个新的窗口
         notepad.createAndShowGUI();
     }
 
     // 定义一个方法，用来实现打开功能
     public void open() {
-
         JFileChooser chooser = new JFileChooser();
 
         // 设置文件过滤器，只显示txt文件
@@ -51,6 +49,7 @@ class NotepadAction {
                 String str;
                 // 清空文本区域的内容
                 filePaths = chooser.getSelectedFile().getPath();
+                setTitle(chooser.getSelectedFile().getName());
                 area.setText("");
                 // 逐行读取文件内容，并追加到文本区域中
                 while ((str = reader.readLine()) != null) {
@@ -58,18 +57,15 @@ class NotepadAction {
                 }
                 // 关闭BufferedReader对象
                 reader.close();
-            } catch (IOException ex) {
-                ex.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
             }
         }
-
     }
 
     public void save() {
-
         if (filePaths == null) {
             saveAs();
-
         } else {
             try {
                 BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(filePaths));
@@ -104,6 +100,11 @@ class NotepadAction {
     // 定义一个方法，用来实现退出功能
     public void exit() {
         System.exit(0);
+    }
+
+    //定义一个私有方法，用来实现设置标题的功能
+    private void setTitle(String name) {
+        frame.setTitle("Notepad-- \"" + name +"\"");
     }
 }
 

@@ -1,5 +1,3 @@
-// NotepadAbout.java
-// 导入需要的包和类
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
@@ -17,7 +15,7 @@ class NotepadAbout {
         aboutNotepad.setLocation(350, 250);
         aboutNotepad.setLayout(new FlowLayout());
 
-        BufferedImage image = null;
+        BufferedImage image;
         try {
             image = ImageIO.read(Objects.requireNonNull(Notepad.class.getResourceAsStream("/resource/icon.jpg")));
         } catch (IOException ex) {
@@ -35,7 +33,10 @@ class NotepadAbout {
         JButton jump = new JButton("跳转");
         aboutNotepad.add(jump);
 
-        JTextArea introduction = new JTextArea("Bullshit Opensource Project.\n\nAll right reserved.(doge\n\n如果屎山能跑，就不要去动他\n\n来看看我的github吧");
+        /*
+        谁懂啊，这托屎山我TM重构了才把bug修好，功能越加越多bug，看来以后代码还得加完功能以后再重构？
+         */
+        JTextArea introduction = new JTextArea("如果有Bug请前往GitHub页面提交pr\n\n我不会回答，也不会修bug(楽\n\n如果屎山能跑，就不要去动他(doge\n\n");
         introduction.setEditable(false);
         introduction.setLineWrap(false);
         introduction.setOpaque(false);

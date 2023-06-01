@@ -1,37 +1,29 @@
-// NotepadUI.java
-// 导入需要的包和类
 import javax.swing.*;
 
 // 定义NotepadUI类，用来创建界面元素
 class NotepadUI {
 
     // 定义一个文本区域对象，用来显示文本内容
-    private JTextArea area;
+    private final JTextArea area;
 
     // 定义一个菜单栏对象，用来显示菜单选项
-    private JMenuBar menuBar;
-
-    // 定义一个文件菜单对象，用来显示文件相关的选项
-    private JMenu file;
-
-    // 定义一个帮助菜单对象，用来显示帮助相关的选项
-    private JMenu help;
+    private final JMenuBar menuBar;
 
     // 定义一个新建菜单项对象，用来实现新建功能
-    private JMenuItem create;
+    private final JMenuItem create;
 
     // 定义一个打开菜单项对象，用来实现打开功能
-    private JMenuItem open;
+    private final JMenuItem open;
 
-    private JMenuItem save;
+    private final JMenuItem save;
 
-    private JMenuItem saveAs;
+    private final JMenuItem saveAs;
 
     // 定义一个退出菜单项对象，用来实现退出功能
-    private JMenuItem exit;
+    private final JMenuItem exit;
 
     // 定义一个关于菜单项对象，用来显示关于页面
-    private JMenuItem about;
+    private final JMenuItem about;
 
     // 定义一个构造方法，用来初始化界面元素并添加到菜单栏中
     public NotepadUI() {
@@ -39,8 +31,10 @@ class NotepadUI {
 
         menuBar = new JMenuBar();
 
-        file = new JMenu("文件");
-        help = new JMenu("帮助");
+        // 定义一个文件菜单对象，用来显示文件相关的选项
+        JMenu file = new JMenu("文件");
+        // 定义一个帮助菜单对象，用来显示帮助相关的选项
+        JMenu help = new JMenu("帮助");
 
         menuBar.add(file);
         menuBar.add(help);
