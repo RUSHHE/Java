@@ -39,15 +39,12 @@ public class JdbcTest {
             Conn c = new Conn();
             conn = c.getConnection();
             //添加 增删改查操作
-            String sql = "INSERT INTO websites(id, name, url, alexa, country) VALUES (?, ?, ?, ?, ?)";
-            PreparedStatement ps = conn.prepareStatement(sql);
-            ps.setInt(1, 6);
-            ps.setString(2, "Bing");
-            ps.setString(3, "https://www.bing.com/");
-            ps.setInt(4, 40);
-            ps.setString(5, "USA");
+            String sql = "INSERT INTO websites(id, name, url, alexa, country) VALUES (6, 'Bing', 'https://www.bing.com/', 40, 'USA')";
+            stmt = conn.prepareStatement(sql);
 
-            int rows = ps.executeUpdate();
+            stmt.executeUpdate(sql);
+
+            int rows = stmt.getUpdateCount();
             System.out.println("插入了" + rows + "条数据");
 
             Statement stm = conn.createStatement();
@@ -65,7 +62,6 @@ public class JdbcTest {
 
             rs.close();
             stm.close();
-            ps.close();
             conn.close();
         } catch (SQLException se) {
             // 处理 JDBC 错误
@@ -77,7 +73,7 @@ public class JdbcTest {
             // 关闭资源
             try {
                 if (stmt != null) stmt.close();
-            } catch (SQLException se2) {
+            } catch (SQLException ignored) {
             }// 什么都不做
             try {
                 if (conn != null) conn.close();
