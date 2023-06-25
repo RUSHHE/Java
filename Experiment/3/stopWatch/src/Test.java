@@ -1,13 +1,11 @@
 import java.io.PrintStream;
 import java.io.UnsupportedEncodingException;
-import java.util.Date;
 import java.util.Random;
 import java.util.Scanner;
 
 public class Test {
 
     public static void main(String[] args) throws UnsupportedEncodingException {
-        //  TODO  Auto-generated  method  stub
         PrintStream out = new PrintStream(System.out, false, "UTF-8");
         Scanner sc = new Scanner(System.in);
 //                System.out.println("我们测试100000个随机数的排序时间。\n将在输入第1个任意字符开始排序计时。");
@@ -35,9 +33,7 @@ public class Test {
             numbers[i] = numbers[min];
             numbers[min] = temp;
         }
-
         sw.stop();
-//                System.out.println("此次排序一共花费了："  +  sw.getElapsedTime()  +  "毫秒");
 
         out.println((checkOrder(numbers) ? "排序成功" : "排序不成功") + ",此次排序一共花费了：" + sw.getElapsedTime() + "毫秒");
     }
@@ -62,14 +58,10 @@ class StopWatch{
     private long startTime;
     private long endTime;
     public void start(){
-        Date date1 = new Date();
         startTime = System.currentTimeMillis();
-//        startTime = date1.getTime();
     }
     public void stop(){
-        Date date2 = new Date();
         endTime = System.currentTimeMillis();
-//        endTime = date2.getTime();
     }
     public long getElapsedTime(){
         return endTime - startTime;
