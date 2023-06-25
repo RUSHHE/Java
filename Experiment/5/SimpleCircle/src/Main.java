@@ -1,26 +1,20 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void printAreas(SimpleCircle myCircle,int n) {
+    public static void printAreas(SimpleCircle myCircle, int n) {
         for (int i = 1; i <= n; i++) {
             myCircle.setRadius(i);
-            System.out.printf("Area is:%.2f\n",myCircle.getArea());
+            System.out.printf("Area is:%.2f\n", myCircle.getArea());
         }
     }
 
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int n = scan.nextInt();
-        SimpleCircle circle = new SimpleCircle();
-        printAreas(circle,n);
+        printAreas(new SimpleCircle(), new Scanner(System.in).nextInt());
     }
 }
 
 class SimpleCircle {
     private int radius;//半径
-    public int getRadius() {
-        return radius;
-    }
 
     public void setRadius(int radius) {
         this.radius = radius;
@@ -30,4 +24,3 @@ class SimpleCircle {
         return Math.PI * radius * radius;
     }
 }
-
