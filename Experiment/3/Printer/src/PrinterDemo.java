@@ -2,7 +2,6 @@ import java.io.PrintStream;
 import java.io.UnsupportedEncodingException;
 
 class Printer {
-    final int maxSpeed = 21;
     final int lineMaxWords = 20;
     PrintStream out;
     int status;
@@ -13,7 +12,6 @@ class Printer {
         try {
             out = new PrintStream(System.out, false, "UTF-8");
         } catch (UnsupportedEncodingException e) {
-            //  TODO  Auto-generated  catch  block
             e.printStackTrace();
         }
     }
@@ -67,7 +65,6 @@ class Printer {
 public class PrinterDemo {
 
     public static void main(String[] args) {
-        //  TODO  Auto-generated  method  stub
         Printer p = new Printer();
         p.brand = "HP";
         p.status = 1;
@@ -86,5 +83,4 @@ public class PrinterDemo {
                 "永远给我碧浪清波心中的歌，" +
                 "啦啦…永远给我碧浪清波心中的歌。");
     }
-
 }
