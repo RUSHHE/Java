@@ -1,47 +1,35 @@
 class Food {
-    private double nutrition;//营养值
-    private String name;
+    private final double nutrition;//营养值
 
-    public Food() {
-
-    }
-
-    public Food(double nutrition, String name) {
-        this.name = name;
+    public Food(double nutrition) {
         this.nutrition = nutrition;
     }
 
     public double getNutrition() {
         return nutrition;
     }
-
-
-    public String getName() {
-        return name;
-    }
 }
-
 
 class Meat extends Food {
     public Meat() {
-        super(10, "Meat");
+        super(10);
     }
 }
 
 class Starch extends Food {//淀粉
     public Starch() {
-        super(5,"Starch");
+        super(5);
     }
 }
 
 class Fruits extends Food {
     public Fruits() {
-        super(2,"Fruits");
+        super(2);
     }
 }
 
 class Monkey {
-    private String name;
+    private final String name;
     private double weight = 5.0;
 
     public Monkey(String name) {
@@ -53,20 +41,9 @@ class Monkey {
         this.weight += food.getNutrition() * 0.1;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public double getWeight() {
-        return weight;
-    }
-
     @Override
     public String toString() {
-        return "Monkey{" +
-                "name='" + name + '\'' +
-                ",  weight=" + weight +
-                '}';
+        return "Monkey{" + "name='" + name + '\'' + ",  weight=" + weight + '}';
     }
 }
 
@@ -96,7 +73,9 @@ public class MonkeyGama {
                     f = new Fruits();
                     break;
             }
-            monkeys[code-1].eat(f);
+            if (f != null) {
+                monkeys[code-1].eat(f);
+            }
         }
         for (int i = 0; i < N; i++) {
             System.out.println(monkeys[i].toString());
