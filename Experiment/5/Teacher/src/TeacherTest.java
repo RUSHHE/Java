@@ -1,7 +1,6 @@
 public class TeacherTest {
 
     public static void main(String[] args) {
-        //  TODO  Auto-generated  method  stub
         CommonTeacher ct = new CommonTeacher(Double.parseDouble(args[0]), Double.parseDouble(args[1]));
         System.out.println(ct.pay());
 
@@ -10,10 +9,6 @@ public class TeacherTest {
 
         SuperfineTeacher st = new SuperfineTeacher(Double.parseDouble(args[4]), Double.parseDouble(args[5]));
         System.out.println(st.pay());
-
-        Teacher t = ct;
-        t = ht;
-        t = st;
     }
 }
 
