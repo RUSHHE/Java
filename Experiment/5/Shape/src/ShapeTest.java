@@ -15,9 +15,7 @@ public class ShapeTest {
 
         c = new Circle(Double.parseDouble(args[2]));
         System.out.println(c.area() + "," + c.perimeter());
-
     }
-
 }
 
 class Shapes {
