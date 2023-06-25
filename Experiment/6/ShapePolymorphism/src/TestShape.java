@@ -2,6 +2,7 @@
  * 【样例输入】
  * 1 2 1
  */
+
 class Shape {
     private int x;
     private int y;
@@ -41,26 +42,14 @@ class Rect extends Shape {
     private int len;
     private int wid;
 
-    public Rect() {
-
-    }
-
     public Rect(int x, int y, int len, int wid) {
         super(x, y);
         setLen(len);
         setWid(wid);
     }
 
-    public int getLen() {
-        return len;
-    }
-
     public void setLen(int len) {
         this.len = len;
-    }
-
-    public int getWid() {
-        return wid;
     }
 
     public void setWid(int wid) {
@@ -78,17 +67,9 @@ class Rect extends Shape {
 class Circle extends Shape {
     private int r;
 
-    public Circle() {
-        super();
-    }
-
     public Circle(int x, int y, int r) {
         super(x, y);
         setR(r);
-    }
-
-    public int getR() {
-        return r;
     }
 
     public void setR(int r) {
@@ -113,14 +94,14 @@ public class TestShape {
 
         for (String arg : args) {
             int type = Integer.parseInt(arg);
-            Shape s = null;
+            Shape s;
+
             if (type % 3 == 1) {
                 s = new Rect(type, type, type, type);
             } else {
                 s = new Circle(type, type, type);
             }
             TestShape.draw(s);
-
         }
     }
 }
