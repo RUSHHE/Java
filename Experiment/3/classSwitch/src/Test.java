@@ -19,9 +19,8 @@ import java.io.UnsupportedEncodingException;
 
 /**
  * @author XXX
- * @author
  */
-class Switch {//TODO  请完成划线部分的代码
+class Switch {
     int status;//表示开关的状态，0表示关，1表示开，其他值表示开关异常
     String productID;//产品ID
     double maxVoltage;//开关最大承受电压
@@ -31,8 +30,7 @@ class Switch {//TODO  请完成划线部分的代码
         try {
             out = new PrintStream(System.out, false, "UTF-8");
         } catch (UnsupportedEncodingException e) {
-            //  TODO  Auto-generated  catch  block
-            //e.printStackTrace();
+            e.printStackTrace();
         }
     }
 
@@ -87,7 +85,6 @@ class Switch {//TODO  请完成划线部分的代码
 public class Test {
 
     public static void main(String[] args) {
-        //  TODO  Auto-generated  method  stub
         Switch bull = new Switch();
         bull.productID = "123456";
         bull.maxVoltage = 380;
@@ -102,5 +99,4 @@ public class Test {
         bull.status = 3;
         bull.displayStatus();
     }
-
 }
