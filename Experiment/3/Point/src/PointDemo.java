@@ -12,7 +12,7 @@ class Point {
     int quadrant() {
         int iRet = -1;
         //添加代码
-        if (x > 0 && y > 0){
+        if (x > 0 && y > 0) {
             iRet = 1;
         } else if (x < 0 && y > 0) {
             iRet = 2;
@@ -28,8 +28,6 @@ class Point {
 
     /**
      * 获取当前点关于x轴对称的点
-     *
-     * @return
      */
     Point xAxialSymmetry() {
         Point pointRet = null;
@@ -42,8 +40,6 @@ class Point {
 
     /**
      * 获取当前点关于y轴对称的点
-     *
-     * @return
      */
     Point yAxialSymmetry() {
         Point pointRet = null;
@@ -58,7 +54,6 @@ class Point {
 public class PointDemo {
 
     public static void main(String[] args) {
-        //  TODO  Auto-generated  method  stub
         Point p1 = new Point();
         p1.x = 10;
         p1.y = 20;
@@ -68,15 +63,12 @@ public class PointDemo {
         System.out.println("p1(" + p1.x + "," + p1.y + ")");
         System.out.println("p2(" + p2.x + "," + p2.y + ")");
 
-        Point pt = p2;
         System.out.println("p2(" + p2.x + "," + p2.y + ")");
-        System.out.println("pt(" + pt.x + "," + pt.y + ")");
+        System.out.println("pt(" + p2.x + "," + p2.y + ")");
 
-        pt.x = 20;
-        pt.y = 30;
+        p2.x = 20;
+        p2.y = 30;
         System.out.println("p2(" + p2.x + "," + p2.y + ")");
-        System.out.println("pt(" + pt.x + "," + pt.y + ")");
-
+        System.out.println("pt(" + p2.x + "," + p2.y + ")");
     }
-
 }
