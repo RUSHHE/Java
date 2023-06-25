@@ -1,6 +1,5 @@
-import  java.io.PrintStream;
-import  java.io.UnsupportedEncodingException;
-import  java.util.Scanner;
+import java.io.PrintStream;
+import java.io.UnsupportedEncodingException;
 public class StudentDemo {
 
     public static void main(String[] args) {
@@ -76,8 +75,7 @@ class Student{
         try {
             out = new PrintStream(System.out, false, "UTF-8");
         } catch (UnsupportedEncodingException e) {
-            //  TODO  Auto-generated  catch  block
-            //e.printStackTrace();
+            e.printStackTrace();
         }
     }
 
