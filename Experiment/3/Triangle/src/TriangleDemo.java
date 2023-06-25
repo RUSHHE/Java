@@ -5,12 +5,10 @@ import java.util.Scanner;
 public class TriangleDemo {
 
     public static void main(String[] args) throws UnsupportedEncodingException {
-        //  TODO  Auto-generated  method  stub
         Scanner input = new Scanner(System.in, "UTF-8");
         PrintStream out = new PrintStream(System.out, false, "UTF-8");
         out.println("请输入三角形的三个顶点坐标：");
         double[] coord = new double[6];
-        //  TODO  接受控制台输入顶点的坐标的横纵坐标存放在coord数组中，请补全代码。
         for (int i = 0; i < coord.length; i++) {
             if (i % 2 == 0) {
                 out.print("第" + i / 2 + "个顶点的横坐标是：");
@@ -28,14 +26,12 @@ public class TriangleDemo {
             out.println("三角形的面积是：" + t.area());
         } else
             out.println("这三个点无法组成三角形。");
-
     }
-
 }
 
 class Point {
-    private double x;
-    private double y;
+    private final double x;
+    private final double y;
 
     public Point(double x, double y) {
         super();
@@ -51,24 +47,18 @@ class Point {
         return y;
     }
 
-    //  TODO  此处缺少一个方法，请根据上下文补全代码
     public double distance(Point p) {
         return Math.sqrt(Math.pow(p.x - x, 2) + Math.pow(p.y - y, 2));
     }
 }
 
 class Triangle {
-    private Point p1;
-    private Point p2;
-    private Point p3;
-
-    public Triangle() {
-        super();
-    }
+    private final Point p1;
+    private final Point p2;
+    private final Point p3;
 
     public Triangle(Point p1, Point p2, Point p3) {
         super();
-        //  TODO  补全代码
         this.p1 = p1;
         this.p2 = p2;
         this.p3 = p3;
@@ -81,10 +71,7 @@ class Triangle {
         side1 = p1.distance(p2);
         side2 = p1.distance(p3);
         side3 = p2.distance(p3);
-        if ((side1 + side2 > side3) && (side1 + side3 > side2) && (side2 + side3 > side1)) {//  TODO  补全代码
-            return true;
-        }
-        return false;
+        return (side1 + side2 > side3) && (side1 + side3 > side2) && (side2 + side3 > side1);
     }
 
     /**
