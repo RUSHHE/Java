@@ -1,18 +1,18 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void reverse(int number) {
-        while (number / 10 != 0) {
-            System.out.print(number % 10);
-            number /= 10;
+    public static int reverse(int num) {
+        int newNum = 0;
+        while (num != 0) {
+            newNum = newNum * 10 + num % 10;//递推，一步一步升位
+            num /= 10;//原数降位
         }
-        System.out.print(number);
+        return newNum;
     }
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        int n = scan.nextInt();
-        reverse(n);
+        System.out.println(reverse(scan.nextInt()));
     }
 }
