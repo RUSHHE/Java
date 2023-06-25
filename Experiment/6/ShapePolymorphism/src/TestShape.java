@@ -7,12 +7,7 @@ class Shape {
     private int x;
     private int y;
 
-    public Shape() {
-        super();
-    }
-
     public Shape(int x, int y) {
-        super();
         setX(x);
         setY(y);
     }
