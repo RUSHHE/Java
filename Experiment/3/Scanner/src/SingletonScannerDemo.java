@@ -4,14 +4,13 @@ import java.util.Scanner;
 
 class SingletonScanner {
     private static SingletonScanner singletonScanner;
-    private Scanner input;
+    private final Scanner input;
 
     private SingletonScanner() {
         input = new Scanner("System.in");
     }
 
     public static SingletonScanner getInstance() {
-        //TODO  完成代码实现单例功能
         if (singletonScanner == null) {
             singletonScanner = new SingletonScanner();
         }
@@ -30,13 +29,11 @@ public class SingletonScannerDemo {
         try {
             out = new PrintStream(System.out, false, "UTF-8");
         } catch (UnsupportedEncodingException e) {
-            //  TODO  Auto-generated  catch  block
             e.printStackTrace();
         }
     }
 
     public static void main(String[] args) {
-        //  TODO  Auto-generated  method  stub
         SingletonScanner sScanner01 = SingletonScanner.getInstance();
         SingletonScanner sScanner02 = SingletonScanner.getInstance();
 
