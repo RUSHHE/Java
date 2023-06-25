@@ -1,6 +1,10 @@
+/**
+ * 第一版代码
+ */
+
 import java.util.Scanner;
 
-public class Main {
+public class Main1 {
     public static int[] delete_Repeat_Num(int[] arr) {
         int[] flag = new int[arr.length];//创建一个标记数组
         for (int i = 0; i < arr.length; i++) {
