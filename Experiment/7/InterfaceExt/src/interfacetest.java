@@ -1,7 +1,6 @@
 public class interfacetest {
 
     public static void main(String[] args) {
-        //  TODO  Auto-generated  method  stub
         FootballExtends ft = new FootballExtends();
         HockeyExtends he = new HockeyExtends();
 
@@ -9,15 +8,13 @@ public class interfacetest {
         s.setHomeTeam(args[0]);
         s.setVisitingTeam(args[1]);
 
-        Football f = ft;
-        f.homeTeamScored(Integer.parseInt(args[2]));
+        ((Football) ft).homeTeamScored(Integer.parseInt(args[2]));
 
         s = he;
         s.setHomeTeam(args[0]);
         s.setVisitingTeam(args[1]);
 
-        Hockey h = he;
-        h.endOfPeriod(Integer.parseInt(args[2]));
+        ((Hockey) he).endOfPeriod(Integer.parseInt(args[2]));
 
     }
 }
@@ -38,7 +35,6 @@ interface Hockey extends Sports {
     void endOfPeriod(int i);
 }
 
-//class  FootballExtends  implements  Football
 class FootballExtends implements Football {
     String homeTeam;
     String visitingTeam;
@@ -62,7 +58,6 @@ class FootballExtends implements Football {
     }
 }
 
-//class  HockeyExtends  implements  Hockey
 class HockeyExtends implements Hockey {
     String homeTeam;
     String visitingTeam;
