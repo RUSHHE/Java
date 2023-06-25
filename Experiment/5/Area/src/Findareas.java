@@ -4,15 +4,15 @@ public class Findareas {
         Rectangle r = new Rectangle(Double.parseDouble(agrs[2]), Double.parseDouble(agrs[3]));
         Figure figref;
         figref = f;
-        System.out.println("Area  is  :" + figref.area());
+        System.out.println("Area is :" + figref.area());
         figref = r;
-        System.out.println("Area  is  :" + figref.area());
+        System.out.println("Area is :" + figref.area());
     }
 }
 
 class Figure {
-    private double width;
-    private double height;
+    private final double width;
+    private final double height;
 
     public Figure(double width, double height) {
         this.width = width;
@@ -44,5 +44,3 @@ class Rectangle extends Figure {
         return getWidth() * getHeight();
     }
 }
-
-
