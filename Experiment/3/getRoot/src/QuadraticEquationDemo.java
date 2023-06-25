@@ -1,5 +1,5 @@
 import java.io.PrintStream;
-import java.io.UnsupportedEncodingException;
+import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 
 public class QuadraticEquationDemo {
@@ -7,7 +7,6 @@ public class QuadraticEquationDemo {
     private static PrintStream out;
 
     public static void main(String[] args) {
-        //  TODO  Auto-generated  method  stub
         testBefore();
         test01();
         out.println("-------------");
@@ -17,15 +16,10 @@ public class QuadraticEquationDemo {
     public static void testBefore() {
         input = new Scanner(System.in);
         out = null;
-        try {
-            out = new PrintStream(System.out, false, "UTF-8");
-        } catch (UnsupportedEncodingException e) {
-            //  TODO  Auto-generated  catch  block
-            e.printStackTrace();
-        }
+        out = new PrintStream(System.out, false, StandardCharsets.UTF_8);
     }
 
-    public static boolean test01() {
+    public static void test01() {
         out.print("a=");
         int a = input.nextInt();
         out.print("b=");
@@ -43,7 +37,6 @@ public class QuadraticEquationDemo {
         } else {
             out.println("方程没有实数根。");
         }
-        return false;
     }
 
     public static boolean test02() {
@@ -62,9 +55,7 @@ public class QuadraticEquationDemo {
         String answer = "5.0x^2+7.0x+9.0=0"
                 + "解：方程的判别式为-131.0  <  0"
                 + "方程没有实数根。";
-        if (result.equals(answer))
-            return true;
-        return false;
+        return result.equals(answer);
     }
 }
 
@@ -73,15 +64,15 @@ public class QuadraticEquationDemo {
  * double类型的a、b、c作为私有成员变量
  * 获取a、b、c的公有成员方法
  * 带a、b、c参数的构造方法
- * 用于计算derta的getDiscriminant方法
+ * 用于计算delta的getDiscriminant方法
  * 获取两个根的方法getRoot1和getRoot2，root1小于等于root2
  *
  * @author gxw
  */
 class QuadraticEquation {
-    private double a;
-    private double b;
-    private double c;
+    private final double a;
+    private final double b;
+    private final double c;
 
     public QuadraticEquation(double a, double b, double c) {
         this.a = a;
@@ -106,10 +97,10 @@ class QuadraticEquation {
     }
 
     public double getRoot1() {
-        return Math.min((-b + Math.sqrt(getDiscriminant())) / (2 * a),(-b - Math.sqrt(getDiscriminant())) / (2 * a));
+        return Math.min((-b + Math.sqrt(getDiscriminant())) / (2 * a), (-b - Math.sqrt(getDiscriminant())) / (2 * a));
     }
 
     public double getRoot2() {
-        return Math.max((-b + Math.sqrt(getDiscriminant())) / (2 * a),(-b - Math.sqrt(getDiscriminant())) / (2 * a));
+        return Math.max((-b + Math.sqrt(getDiscriminant())) / (2 * a), (-b - Math.sqrt(getDiscriminant())) / (2 * a));
     }
 }
